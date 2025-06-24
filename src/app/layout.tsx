@@ -21,6 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <h1>outer layout</h1>
       <body
         className={`${monaSans.className}  antialiased`}
       >
